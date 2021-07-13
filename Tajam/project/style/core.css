@@ -527,7 +527,7 @@ body{
     font-size: 100px;
     font-family: "PlayfairDisplay";
     color: rgba(255, 255, 255, 0.902);
-
+    height: 100px;
   }
   
 .team__subtitle {
