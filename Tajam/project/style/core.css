@@ -534,6 +534,7 @@ body{
     font-family: "PlayfairDisplay";
     color: rgba(255, 255, 255, 0.902);
     height: 100px;
+    margin: 0 0 36px 0;
   }
   
 .team__subtitle {
@@ -542,24 +543,71 @@ body{
     color: rgba(255, 255, 255, 0.851);
     line-height: 1.625;
     text-align: center;
-}
-.team__persons {
-    text-align: center;
-}
-.team__person{}
-.team__name{
-    
-}
-.team__post{
+    margin: 0 0 50px 0;
 
 }
+.team__persons {
+    
+}
+.team__person{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.team__name{
+    font-size: 16px;
+    font-family: "Roboto";
+    color: rgb(255, 255, 255);
+    line-height: 1.571;
+    text-align: center;      
+}
+.team__post{
+    font-size: 14px;
+    font-family: "Roboto";
+    color: rgba(255, 255, 255, 0.702);
+    line-height: 1.692;
+    text-align: center;
+    margin: 0 0 40px 0;
+
+}
+.team__slider {
+    display: flex;
+    justify-content: space-between;
+    width: 350px;
+    align-items: center;
+}
+.team__slide {
+    height: 45px;
+}
+.slide-active {
+    width: 70px;
+    height: auto;
+}
+.team__slider-btns {
+    position: relative;
+    top: -45px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 75rem;
+}
+.slider__btn {
+    filter: invert(70%); 
+}
+
+
+
+
+
+
+
 /**/
 .main__contact {
     margin-top: 500px;
     display: flex;
     justify-content: space-between;
     padding-top: 70px;
-
 }
 
 .contact__form {
