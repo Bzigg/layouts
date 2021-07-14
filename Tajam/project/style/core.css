@@ -543,6 +543,16 @@ body{
     line-height: 1.625;
     text-align: center;
 }
+.team__persons {
+    text-align: center;
+}
+.team__person{}
+.team__name{
+    
+}
+.team__post{
+
+}
 /**/
 .main__contact {
     margin-top: 500px;
