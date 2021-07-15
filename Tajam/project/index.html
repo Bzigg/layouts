@@ -16,19 +16,21 @@
             <div class="header__content">
                 <div class="container">
                     <div class="header__top">
-                        <a href="#" class="header__logo">
-                            <img src="images/logo/logo.png" class="header__logo-image" alt="logo">
-                            <span class="header__logo-text">tajam</span>
+                        <a href="#" class="header__logo logo">
+                            <img src="images/logo/logo.png" class="header__logo-image logo-image" alt="logo">
+                            <span class="header__logo-text logo-text">tajam</span>
                         </a>
                         <nav class="header__menu">
                             <ul class="menu__list">
-                                <li class="menu__link menu__link_active">home</li>
-                                <li class="menu__link">about</li>
-                                <li class="menu__link">expertise</li>
-                                <li class="menu__link">teams</li>
-                                <li class="menu__link">works</li>
-                                <li class="menu__link">people say</li>
-                                <li class="menu__link">contact</li>
+                                <li class="menu__link-item menu__link-item_active"><a
+                                        class="menu__link link menu__link-active" href="#">
+                                        home</a></li>
+                                <li class="menu__link-item"><a class="menu__link link" href="#">about</a></li>
+                                <li class="menu__link-item"><a class="menu__link link" href="#">expertise</a></li>
+                                <li class="menu__link-item"><a class="menu__link link" href="#">teams</a></li>
+                                <li class="menu__link-item"><a class="menu__link link" href="#">works</a></li>
+                                <li class="menu__link-item"><a class="menu__link link" href="#">people say</a></li>
+                                <li class="menu__link-item"><a class="menu__link link" href="#">contact</a></li>
                             </ul>
                         </nav>
                     </div>
@@ -286,25 +288,128 @@
                             </div>
                         </div>
                     </div>
-                    <div class="main__contact">
+                    <div class="main__contact block">
                         <div class="contact__form">
                             <div class="contact__title title">GIVE US A GOOD NEWS</div>
-                            <form action="#">
-                                <input type="text" placeholder="Name">
-                                <input type="email" placeholder="Email">
-                                <input type="text" placeholder="Subject">
-                                <textarea name="" id="" cols="30" rows="10"></textarea>
+                            <form action="#" class="contact__f">
+                                <input type="text" placeholder="Name" class="contact__input">
+                                <input type="email" placeholder="Email" class="contact__input">
+                                <input type="text" placeholder="Subject" class="contact__input">
+                                <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"
+                                    class="contact__text-area"></textarea>
                             </form>
                             <a href="#" class="contact__btn btn btn_cuan">submit</a>
 
                         </div>
                         <div class="contact__clients">
                             <div class="contact__title title">OUR HAPPY CLIENT</div>
+                            <div class="contact__clients-images">
+                                <img src="images/main/brands/Zara_Logo.svg.png" alt="" class="contact__clients-brand">
+                                <img src="images/main/brands/Logo_of_Mango_(new).svg.png" alt=""
+                                    class="contact__clients-brand">
+                                <img src="images/main/brands/1280px-Barneys_New_York_Logo.svg.png" alt=""
+                                    class="contact__clients-brand">
+                                <img src="images/main/brands/1280px-Gucci_Logo.svg.png" alt=""
+                                    class="contact__clients-brand">
+                                <img src="images/main/brands/Calvin_klein_logo.svg.png" alt=""
+                                    class="contact__clients-brand">
+                                <img src="images/main/brands/1280px-Logo_NIKE.svg.png" alt=""
+                                    class="contact__clients-brand">
+                                <img src="images/main/brands/Converse_logo.svg.png" alt=""
+                                    class="contact__clients-brand">
+                                <img src="images/main/brands/Puma_Logo.svg.png" alt="" class="contact__clients-brand">
+                                <img src="images/main/brands/1280px-Levi's_logo.svg.png" alt=""
+                                    class="contact__clients-brand">
+                                <img src="images/main/brands/Billabong.svg.png" alt="" class="contact__clients-brand">
+
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </main>
+        <footer class="footer">
+            <div class="footer__content block">
+                <div class="container">
+                    <div class="footer__info-row">
+                        <div class="info__about">
+                            <div class="info__title">
+                                <a href="#" class="footer__logo logo">
+                                    <img src="images/logo/logo.png" class="footer__logo-image logo-image" alt="logo">
+                                    <span class="footer__logo-text logo-text">tajam</span>
+                                </a>
+                            </div>
+                            <div class="info__about-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, quis aut ratione
+                                accusamus,
+                                expedita culpa est laudantium iste ea architecto, doloremque inventore minima
+                                dignissimos
+                                officiis dolore ipsum repudiandae saepe ab?
+                            </div>
+                        </div>
+                        <div class="info__contact">
+                            <div class="info__title title">
+                                our studio
+                            </div>
+                            <div class="info__contact-content">
+                                <div class="info__contact-location">
+                                    <img src="images/ui/location.png" alt="" class="info__contact-img">
+                                    <div class="info__contact-text">Ruko cucruk, Jl. Radio luar dalem jos No.12 - 13,
+                                        Kalideres - Jakarta Barat 112233 - Indonesia</div>
+                                </div>
+                                <div class="info__contact-phone">
+                                    <img src="images/ui/phone.png" alt="" class="info__contact-img">
+                                    <div class="info__contact-text">+7-(917)-123-45-67</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="info__connection">
+                            <div class="info__title title">
+                                stay in touch
+                            </div>
+
+                            <form action="" class="info__connection-form">
+                                <input type="text" class="info__connection-text">
+                                <button class="info__connection-btn"></button>
+                            </form>
+                            <div class="info__connection-social">
+                                <a href="#" class="info__connection-link">
+                                    <img src="images/footer/social/facebook.png" alt="" class="info__connection-image">
+                                </a>
+                                <a href="#" class="info__connection-link">
+                                    <img src="images/footer/social/twitter.png" alt="" class="info__connection-image">
+                                </a>
+                                <a href="#" class="info__connection-link">
+                                    <img src="images/footer/social/dribbble.png" alt="" class="info__connection-image">
+                                </a>
+                                <a href="#" class="info__connection-link">
+                                    <img src="images/footer/social/instagram.png" alt="" class="info__connection-image">
+                                </a>
+                                <a href="#" class="info__connection-link">
+                                    <img src="images/footer/social/gplus.png" alt="" class="info__connection-image">
+                                </a>
+                                <a href="#" class="info__connection-link">
+                                    <img src="images/footer/social/youtube.png" alt="" class="info__connection-image">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer__info-bottom">
+                        <ul class="footer__nav">
+                            <li class="footer__nav-item"><a href="#" class="footer__link">help</a></li>
+                            <li class="footer__nav-item"><a href="#" class="footer__link">terms & condition</a></li>
+                            <li class="footer__nav-item"><a href="#" class="footer__link">privacy</a></li>
+                        </ul>
+                        <div class="footer__copy">
+                            Copyright © 2015 - Tajem Creative
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__image ibg">
+                <!-- <img src="images/header/slide_1.png" alt="slide_1"> -->
+            </div>
+        </footer>
     </div>
 </body>
 
