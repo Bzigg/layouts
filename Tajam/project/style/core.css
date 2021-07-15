@@ -772,8 +772,29 @@ body{
 .info__connection-social {
     margin-top: 16px;
 }
+.footer__info-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 16px;
+    margin-top: 70px;
+}
 
+.footer__nav {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+}
 
+.footer__copy{
+    font-size: 14px;
+    font-family: "Roboto";
+    color: rgb(255, 255, 255);
+    line-height: 1.857;
+    text-align: right;
+
+      
+}
 
 .footer__image{
     position: absolute;
